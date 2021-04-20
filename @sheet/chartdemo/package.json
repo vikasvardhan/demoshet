@@ -1,0 +1,114 @@
+{
+  "_from": "@sheet/chartdemo",
+  "_id": "@sheet/chartdemo@1.20210408.1",
+  "_inBundle": false,
+  "_integrity": "sha512-cQtcnHMU3NH8R1N/baP05qmsDv1ZRmVlCbYsg+jh2WxktaGMpMPNzz1QT/UN7q6dItRlpbYIh2B+ZwYFd7R8qQ==",
+  "_location": "/@sheet/chartdemo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@sheet/chartdemo",
+    "name": "@sheet/chartdemo",
+    "escapedName": "@sheet%2fchartdemo",
+    "scope": "@sheet",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://pylon.sheetjs.com:54111/@sheet%2fchartdemo/-/chartdemo-1.20210408.1.tgz",
+  "_shasum": "51779a34f412d04a4fefcbd0355ca40e4385beb4",
+  "_spec": "@sheet/chartdemo",
+  "_where": "/Users/vikasvardhan/callahan/chartdemo",
+  "alex": {
+    "allow": [
+      "special",
+      "invalid",
+      "simple",
+      "wtf",
+      "disabled",
+      "color",
+      "colors",
+      "hole",
+      "holes"
+    ]
+  },
+  "author": {
+    "name": "sheetjs"
+  },
+  "bin": {
+    "xlsx": "bin/xlsx.njs"
+  },
+  "browser": {
+    "buffer": false,
+    "crypto": false,
+    "stream": false,
+    "process": false,
+    "fs": false
+  },
+  "bundleDependencies": false,
+  "config": {
+    "blanket": {
+      "pattern": "xlsx.js"
+    }
+  },
+  "dependencies": {
+    "codepage": "~1.13.0",
+    "commander": "~2.15.1",
+    "exit-on-epipe": "~1.0.1"
+  },
+  "deprecated": false,
+  "description": "SheetJS Spreadsheet data parser and writer",
+  "devDependencies": {
+    "@sheetjs/uglify-js": "~2.7.3"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "files": [
+    "/jszip.js",
+    "/xlsx.js",
+    "bin/xlsx.njs",
+    "dist/cpexcel.js",
+    "dist/index.d.ts",
+    "dist/cfb.d.ts",
+    "dist/ssf.d.ts",
+    "dist/xlsx.full.min.js",
+    "dist/xlsx.mini.min.js",
+    "dist/shim.min.js",
+    "types/index.d.ts",
+    "types/cfb.d.ts",
+    "types/ssf.d.ts",
+    "types/tsconfig.json"
+  ],
+  "homepage": "https://sheetjs.com/",
+  "keywords": [
+    "excel",
+    "xls",
+    "xlsx",
+    "xlsb",
+    "xlsm",
+    "ods",
+    "csv",
+    "dbf",
+    "dif",
+    "sylk",
+    "office",
+    "spreadsheet"
+  ],
+  "main": "./xlsx",
+  "name": "@sheet/chartdemo",
+  "scripts": {
+    "build": "make",
+    "dtslint": "dtslint types",
+    "lint": "make fullint",
+    "pretest": "git submodule init && git submodule update",
+    "test": "make travis"
+  },
+  "types": "types",
+  "version": "1.20210408.1"
+}
